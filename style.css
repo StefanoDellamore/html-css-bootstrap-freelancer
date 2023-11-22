@@ -6,6 +6,37 @@ header {
     background-color: rgb(27, 26, 26);
 }
 
+/* header */
 .container-nav {
     width: 80%;
+}
+
+/* main */
+
+/* main-1 */
+#main-1 {
+    background-color: #1ABC9C;
+}
+
+.main-1 {
+    width: 80%;
+}
+
+.line {
+    background-color: white;
+    margin: 0 10px;
+    height: 2px;
+    width: 100px;
+}
+
+/* main-2 */
+.main-2 {
+    width: 80%;
+}
+
+.line-black {
+    background-color: black;
+    margin: 0 10px;
+    height: 2px;
+    width: 100px;
 }
