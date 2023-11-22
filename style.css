@@ -30,8 +30,13 @@ header {
 }
 
 /* main-2 */
+
 .main-2 {
     width: 80%;
+}
+
+.main-2 h2 {
+    margin-top: 50px;
 }
 
 .line-black {
@@ -40,3 +45,38 @@ header {
     height: 2px;
     width: 100px;
 }
+
+.container-col-main2 {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.square {
+    margin: 10px 10px;
+}
+
+.square > img {
+    width: 100%;
+}
+
+/* main-3 */
+
+#main-3 {
+    background-color: #1ABC9C;
+}
+
+.main-3 {
+    width: 80%;
+}
+
+.main-3 h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container-col-main3 {
+    margin-top: 20px;
+    width: 80%;
+}
+
+/* main-4 */
