@@ -1,0 +1,11 @@
+.container-fluid {
+    border: 1px dashed black;  
+}
+
+header {
+    background-color: rgb(27, 26, 26);
+}
+
+.container-nav {
+    width: 80%;
+}
