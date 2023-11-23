@@ -28,6 +28,7 @@ header {
 .square-avatar {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
 }
 
 .square-avatar > img {
@@ -135,6 +136,7 @@ header {
 .main-5 .line-big{
     margin-bottom: 10px;
 }
+
 #main-5 .main-5 button {
     margin-bottom: 50px;
 }
