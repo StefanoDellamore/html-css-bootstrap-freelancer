@@ -3,8 +3,12 @@ header {
 }
 
 /* header */
-.container-nav {
+.nav-bar-container {
     width: 80%;
+}
+
+header .nav-bar-container .navbar-brand {
+    margin-right: 270px;
 }
 
 /* main */
@@ -166,4 +170,18 @@ header {
 
 #footer-bottom {
     background-color: #2C3E50;
+}
+
+
+/* media-querry */
+
+@media (max-width: 576px) {
+
+   .container-footer-top .row {
+    flex-direction: column;
+   }
+
+   .container-footer-top {
+    margin-left: 180px;
+   }
 }

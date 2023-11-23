@@ -10,20 +10,28 @@
         <title>Bootstrap</title>
     </head>
     <body>
-        <header>
-            <section class="container-fluid d-flex justify-content-center">
-               <div class="container-nav d-flex justify-content-between">
-                    <nav class="nav">
-                        <a class="nav-link link-light" href="#">START BOOTSTRAP</a>
-                    </nav>
-                    
-                    <nav class="nav">
-                        <a class="nav-link link-light" href="#">Portfolio</a>
-                        <a class="nav-link link-light" href="#">About</a>
-                        <a class="nav-link link-light" href="#">Contact</a>                       
-                    </nav>
-               </div>
-            </section>
+        <header class="d-flex justify-content-center">
+            <div class="nav-bar-container text d-flex justify-content-center">
+                <nav class="navbar navbar-expand-md d-flex flex-nowrap" data-bs-theme="dark">
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
         </header>
 
         <main>
@@ -113,7 +121,7 @@
 
             <!--main-3-->
             <section id="main-3" class="container-fluid d-flex justify-content-center d-flex flex-wrap text-center">
-                <div class="main-3">
+                <div class="main-3 d-flex justify-content-center">
                     <!--title-->
                     <h2 class="text-white">ABOUT</h2>
                 </div>
@@ -221,15 +229,15 @@
             <section id="footer-top" class="container-fluid d-flex flex-wrap d-flex justify-content-center">
                 <div class="container-footer-top">
                     <div class="row">
-                        <div class="col-6 col-md-4 text-center text-white">
+                        <div class="col-6 col-ms-4 text-center text-white">
                             <h5>LOCATION</h5>
                             <p>2215 Jonh Daniel Drive Clark, MO 54243</p>
                         </div>
-                        <div class="col-6 col-md-4 text-center text-white">
+                        <div class="col-6 col-ms-4 text-center text-white">
                             <h5>ARUOND THE WEB</h5>
                             <p>2215 Jonh Daniel Drive Clark, MO 54243</p>
                         </div>
-                        <div class="col-6 col-md-4 text-center text-white">
+                        <div class="col-6 col-ms-4 text-center text-white">
                             <h5>ABOUT FREELANCER</h5>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quidem ut ratione? <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Lorem, ipsum.</a></p>
                         </div>
