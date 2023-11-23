@@ -175,7 +175,7 @@ header .nav-bar-container .navbar-brand {
 
 /* media-querry */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
    .container-footer-top .row {
     flex-direction: column;
