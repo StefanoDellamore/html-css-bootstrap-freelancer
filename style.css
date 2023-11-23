@@ -128,3 +128,33 @@ header {
 .main-5 .line-big{
     margin-bottom: 10px;
 }
+#main-5 .main-5 button {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+/* footer-top*/
+
+#footer-top {
+    background-color: #3A546D;
+    padding-top: 50px;
+}
+
+
+.container-footer-top {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.container-footer-bottom {
+    width: 80%;
+}
+
+.container-footer-bottom > * {
+    margin-top: 20px;
+}
+
+#footer-bottom {
+    background-color: #2C3E50;
+}
